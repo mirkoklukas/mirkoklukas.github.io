@@ -16,6 +16,35 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
+ul.cv {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+ul.cv li {
+  margin: 0 0 1em 0;
+  padding-left: 0px;
+  margin-left: 2em;
+}
+
+ul.cv li .time {
+
+}
+
+ul.cv li .loc {
+
+  /*color:#333;*/
+}
+
+ul.cv li .occ {
+  /*color:#333;*/
+}
+
+ul.cv li .info {
+  display: none;
+  font-size: 0.8em;
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
@@ -188,6 +217,7 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
+
   }
   
   header, section, footer {
@@ -221,6 +251,7 @@ footer {
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
+
   }
   
   header {
